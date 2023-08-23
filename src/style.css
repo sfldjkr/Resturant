@@ -1,0 +1,134 @@
+/* 
+#E27D60
+#85DCB0
+#E8A87C
+#C38D9E
+#41B3A3
+*/
+body {
+   background-color:
+   #85DCB0;
+   font-family: 'Work Sans', sans-serif;
+   padding: 0px;
+   margin:0px;
+   color:aliceblue;
+   letter-spacing: 3px;
+}
+
+.headerdiv {
+    background-color:rgba(195, 141, 158,0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+.headerdiv > button {
+    -webkit-appearance: none;
+    border: none;
+    margin:5px;
+    background-color:transparent;
+    color:aliceblue;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.headerdiv > button:hover {
+    transform: scale(1.1);
+
+    border-bottom: 2px solid white;
+}
+
+.headerdiv > h1 {
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.bodydiv {
+    background-color:
+    rgba(195, 141, 158,0.7);
+    /* #41B3A3; */ 
+    width:40%;
+    border-radius: 5%;
+    margin: auto;
+    /* #379683
+    #7395AE
+    #557A95
+    #B1A296; */
+    padding: 25px;
+    text-align: center;
+    padding:10px;
+    margin-top: 100px;
+}
+
+
+
+.dumpling {
+    object-fit: cover;
+    background-color:  #5D5C61;
+    border-radius: 100%;
+    height: 30vh;
+    width: 30vh;
+}
+
+.contactdiv {
+    text-align: left;
+    padding: 10px;
+    
+}
+
+
+
+.phonediv > img, .locationdiv > img {
+    width:4vh;
+    margin-right: 10px;
+}
+
+.mapdiv {
+    margin-top: 10px;
+    padding: 10px;
+    opacity:0.5;
+}
+
+.menudiv {
+    padding:20px 10px;
+    display:grid;
+    gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.menudiv > div {
+    padding: 0.5vw 2vw;
+}
+
+.carddiv > img {
+    object-fit: cover;
+    height:20vh;
+    width: 15vw;
+}
+
+.carddiv {
+    opacity: 0.6;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color:rgba(195, 141, 158,0.2);
+}
+
+.carddiv:hover {
+    opacity: 0.8;
+    transform: scale(1.01);
+}
+
+.menudiv {
+    opacity:0.9;
+}
+
+.menudiv {
+    opacity: 0.9;
+}
+
+.homediv, .mapdiv {
+    opacity: 0.8;
+}
+
+.homediv:hover, .mapdiv:hover {
+    opacity:0.9;
+    transform: scale(1.01);
+}
